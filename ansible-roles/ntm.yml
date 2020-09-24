@@ -1,0 +1,5 @@
+---
+- name: ntp role
+  hosts: localhost
+  roles:
+     - rhel-system-roles.timesync
