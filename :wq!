@@ -1,0 +1,5 @@
+---
+- name: ntp
+  hosts: localhost
+  roles: 
+	 - 
