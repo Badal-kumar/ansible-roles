@@ -1,0 +1,7 @@
+---
+- name: apacheinstallation
+  hosts: all
+  become_user: root
+  become: true
+  roles:
+     - role: "ansible/roles/ansible-role-httpd-master"
