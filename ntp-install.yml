@@ -1,0 +1,6 @@
+---
+- name: install ntp
+  hosts: all
+  become_user: root
+  roles:
+      - role: ""
